@@ -1,0 +1,8 @@
+{
+    "plugins": ["gtm", "katex"],
+    "pluginsConfig": {
+        "gtm": {
+            "token": "GTM-MBTXGV9"
+        }
+    }
+}
