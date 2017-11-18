@@ -28,3 +28,20 @@
 ### beautifulsoup
 - 요청을 통해 받은 응답을 분석하여 원하는 값을 얻을 수 있도록 도와주는 라이브러리
 - `pip install beautifulsoup4`
+
+## 과제
+[생활환경안전정보시스템 초록누리](http://ecolife.me.go.kr/ecolife/hrmflnsChmstryMmttr/chmstryMttrIndex) 유해화학 물질정보 페이지의 첫페이지에 보이는 화학물질을 크롤링 해보세요!
+
+### Sample output
+
+[['번호', 'CAS번호', '영문명', '국문명'],
+ ['52', '1333-82-0', 'Chromic anhydride', '무수 크롬산'],
+ ['51', '1336-21-6', 'Ammonium hydroxide', '암모늄수산화물'],
+ ['50', '110-80-5', 'Ethylene glycol monoethyl ether', '에틸렌 글리콜 모노에틸 에테르'],
+ ['49', '111-30-8', 'Glutaraldehyde', '글루타르알데히드'],
+ ['48', '1341-49-7', 'Ammonium hydrogendifluoride', '이플루오르화암모늄'],
+ ['47', '64-67-5', 'Diethylsulfate', '다이에틸 황산염'],
+ ['46', '108-88-3', 'Toluene', '톨루엔'],
+ ['45', '108-91-8', 'Cyclohexylamine', '사이클로헥실아민'],
+ ['44', '108-95-2', 'Phenol ; Hydroxybenzene', '페놀'],
+ ['43', '109-86-4', '2-Methoxyethanol', '2-메톡시에탄올']]
