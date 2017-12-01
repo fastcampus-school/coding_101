@@ -12,6 +12,60 @@
 
 ![](img/server-client.png)
 
+
+## HTML (HyperText Markup Language)
+
+- 웹 문서에 구조를 만드는 언어
+- css 를 사용하여 스타일을 입히고, Javascript를 사오요하여 동적인 움직임을 추가할 수 있음.
+- 텍스트로된 HTML + CSS + Javascript가 브라우저를 거쳐 우리가 보는 이쁘게 렌더링된 화면으로 전환됨.
+
+![](img/rendered-html.png)
+
+### HTML tag
+
+```
+<TagName> Content </TagName>
+```
+
+- 제목, 본문, 리스트, 이미지 첨부 등 문서 구조를 표현하는 기능을 합니다.
+- TagName은 규격화되어 있습니다.
+- 보통 여는태그와 닫는태그로 되어있습니다.
+
+
+### HTML Class
+
+```
+<TagName1 class='myClass'> first Content </TagName1>
+<TagName2 class='myClass'> second Content </TagName2>
+```
+
+- 여러 Tag혹은 하나의 Tag를 특정 Class이름으로 그룹화할수 있습니다.
+
+
+### HTML ID
+
+```
+<TagName id='myid'> Content </TagName>
+```
+
+특정 Tag에 id를 부여합니다.
+id이름은 전체 문서에서 유일해야합니다.
+
+### 기본 HTML 구조
+
+```
+<!doctype html>
+<html>
+  <head>
+    <title>Hello HTML</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+  </body>
+</html>
+```
+
+
 ## Web Crawling
 - 웹을 자동으로 탐색하며 구조화된 정보(xml, html 등)을 수집하는 일
 
@@ -28,6 +82,29 @@
 ### beautifulsoup
 - 요청을 통해 받은 응답을 분석하여 원하는 값을 얻을 수 있도록 도와주는 라이브러리
 - `pip install beautifulsoup4`
+
+
+ ### BeautifulSoup 기본 사용법
+
+```
+>>> from bs4 import BeautifulSoup as bs
+>>> result = bs(response.text, 'html.parser')
+
+
+>>> result.find('태그이름')
+	# 해당 태그를 가진 첫번째 요소를 반환
+	
+>>> result.findAll('태그이름')
+	# 해당 태그를 가진 모든 요소를 list로 반환
+
+>>> result.find('태그이름', {'class': 'className'})	
+	# 해당 태그중 해당 클래스이름을 가진 첫번째 요소를 반환, id도 사용가능, class와 id동시 사용 가능
+	
+>>> result.find('태그이름').text
+	# 해당 태그를 가진 첫번째 요소에 태그안에 텍스트를 반환
+```
+
+## 과제
 
 ### 박스오피스 정보 긁어내기
 
@@ -57,6 +134,7 @@ for tr in all_tr:
 ```
 
 ## 과제
+
 [생활환경안전정보시스템 초록누리](http://ecolife.me.go.kr/ecolife/hrmflnsChmstryMmttr/chmstryMttrIndex) 유해화학 물질정보 페이지의 첫페이지에 보이는 화학물질을 크롤링 해보세요!
 
 ### Sample output
