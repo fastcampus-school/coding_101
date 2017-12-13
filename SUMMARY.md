@@ -4,7 +4,7 @@
 * [coding101-python](part1/README.md)
   * [Python이란?](part1/0101-intro-to-python.md)
   * [Python, Visual Studio Code 설치](part1/0102-install-python-vscode.md)
-  * [변수](part1/0103-python-variables.md)
+  * [변수](part1/0103-python-type-variables.md)
   * [연산, 연산자](part1/0104-operators.md)
   * [문자열](part1/0105-string.md)
   * [리스트](part1/0106-list.md)
