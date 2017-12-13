@@ -84,7 +84,7 @@ id이름은 전체 문서에서 유일해야합니다.
 - `pip install beautifulsoup4`
 
 
- ### BeautifulSoup 기본 사용법
+### BeautifulSoup 기본 사용법
 
 ```
 >>> from bs4 import BeautifulSoup as bs
