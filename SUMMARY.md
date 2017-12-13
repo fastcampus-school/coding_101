@@ -12,4 +12,5 @@
   * [반복문](part1/0108-iterations.md)
   * [Python으로 웹 스크래핑하기](part1/0109-web-scraping-with-python.md)
 * [Python, Visual Studio Code 설치\(맥\)](python-visual-studio-code-c124-ce5828-b9e529.md)
+* [Python, Visual Studio Code설치\(윈도우\)](python-visual-studio-codec124-ce5828-c708-b3c4-c6b029.md)
 
