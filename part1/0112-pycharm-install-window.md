@@ -236,19 +236,19 @@ Interpreter field is empty라는 에러메세지가 떳따면, 1)파이썬을 �
 
 
 
-![04_type_code](/Users/gaius/onedrive/coding101/coding_101/part1/img/python_excute/04_type_code.jpg)
+![04_type_code](./img/python_excute/04_type_code.jpg)
 
 여기에 파이썬 코드를 넣으시고(참고로 위의 `print('Hello world')`라는 문법은 단순히 Hello world를 출력하라는 문법입니다.)
 
 
 
-![05_excute](/Users/gaius/onedrive/coding101/coding_101/part1/img/python_excute/05_excute.jpg)
+![05_excute](./img/python_excute/05_excute.jpg)
 
 하단의 터미널 창에서 파이썬 파일을 위와 같이 실행하시면!
 
 
 
-![06_result](/Users/gaius/onedrive/coding101/coding_101/part1/img/python_excute/06_result.jpg)
+![06_result](./img/python_excute/06_result.jpg)
 
 위와같이 입력했던 코드가 실행된 모습을 보실 수 있습니다!
 
