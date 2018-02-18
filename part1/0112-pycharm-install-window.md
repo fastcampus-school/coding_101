@@ -6,7 +6,7 @@ window PC 사용자가 python을 사용하기 위한 설치과정을 소개합�
 
 ## index
 
-*  python 다운로드 및 설치
+* python 다운로드 및 설치
 * IDE(pycharm) 다운로드 및 설치
 * pycharm에서 파이썬 파일 만들고 실행해보기
 
