@@ -111,11 +111,167 @@ python3 버전이 제대로 설치되었는지 확인하는 방법은
 
 
 
+## pycharm 설치하기
+
+##### pycharm(파이참)? IDE?
+
+ 파이참은 jetbrains사에서 판매하는 IDE 프로그램입니다. <a href='https://ko.wikipedia.org/wiki/%ED%86%B5%ED%95%A9_%EA%B0%9C%EB%B0%9C_%ED%99%98%EA%B2%BD'>IDE(Integrated Development Environment)</a> 프로그램을 쉽게 이야기하면 프로그램을 만드는 여러 과정들을 한 곳에서 모두 할 수 있도록 모아놓은 툴이라 할 수 있습니다. 사실 위와같이 파이썬을 설치하고 나면 .py라는 확장자를 가진 파일들을 실행하는 것엔 아무 무리가 없습니다. 단순하게, 메모장에다가 파이썬 코드를 적어놓고 커멘드 라인에다가 `python 파일명.py` 라고 명령하면 해당 파이썬 코드가 실행되죠.
+
+ 하지만 프로그램의 복잡도가 올라갈 수록 위와 같은 코딩 방법은 여러가지 한계를 가지게 되는데, 이러한 한계들을 넘어서서 편리하게 코딩할 수 있도록 도와주는 툴이 바로 IDE입니다. 파이참은 수많은 IDE 프로그램들 중의 하나인 것이지요. pycharm을 활용하면 다음과 같은 이점을 얻을 수 있습니다.
+
+	1. 코드의 오타를 매우 쉽게 찾아준다.(빨간 밑줄, 노랑 밑줄, 초록 밑줄, indentation 등등)
+	2. 코드의 실행과 작성을 한 화면에서 동시에 진행 할 수 있다.
+	3. 코드가 실행되는 과정을 하나하나 볼 수 있다.
+	4. 디버깅이 용이하다. 등등
+
+이 외에도 무수한 장점들이 있어서 최근에는 IDE를 많이 사용하는 추세입니다.
+
+
+
+#### pycharm 다운로드!
+
+pycharm 홈페이지의 다운로드 페이지(https://www.jetbrains.com/pycharm/download/#section=mac)를 접속합니다.
+
+![14_pycharm_download](./img/python_pycharm_install_mac/14_pycharm_download.png)
+
+위 화면에서 해당하는 macOS를 선택하고, Community 버전을 선택합니다.
+
+pycharm은 현재 몇가지 버전이 있고, 풀버전은 Professional 버전이나 이게 유료입니다. 하지만 누구나 사용할 수 있는 Community 버전은 무료인데도 풀버전의 대부분의 기능들을 지원하기 때문에, Community 버전으로도 코딩하는데 별 무리가 없습니다. 이제 막 파이썬에 입문하시는 분들은 일단 Community 버전으로 pycharm에 익숙해지신 이후에 유료버전으로 갈아타는 것을 추천드립니다!
+
+(참고로 학생이신 분들은 무료로 Professional 버전을 사용할 수 있도록 JetBrains사에서 배려하고 있습니다!)
+
+
+
+#### pycarm 설치
+
+![15_pycharm_install](./img/python_pycharm_install_mac/15_pycharm_install.png)
+
+다운로드 받은 파이참 설치파일을 실행하면 다음과 같은 화면이 나옵니다. 간단하게 왼쪽 아이콘을 오른쪽 폴더로 드레그 해서 넣어 주면 파이참 설치가 완료됩니다.
+
+
+
+#### pycharm 실행
+
+이제 설치된 pycharm을 실행해 보도록 하겠습니다.
+
+![16_pycharm_excute](./img/python_pycharm_install_mac/16_pycharm_excute.png)
+
+아마 pycharm을 처음으로 실행하면 위와같은 화면이 나오는데요. pycharm의 settings파일을 가지고 있다면 첫번째 버튼을 눌러서 pycharm settings를 한큐에 끝낼 수 있겠지만, 우리는 완전 처음하는 것이므로 그런 설정파일이 있을리 만무합니다. 미련없이 `Do not import settings` 선택하고 OK 누르시면 되겠습니다.
+
+
+
+![17_pycharm_style](./img/python_pycharm_install_mac/17_pycharm_style.png)
+
+파이참의 스타일을 지정해주는 설정입니다. 큰 의미는 없고, 너는 하얀 화면이 좋니? 아님 까무잡잡한 화면이 좋니? 이런 의미입니다. 본인 기호의 맞게 선택해 줍니다. (저는 까무잡잡이 좋습니다.)
+
+
+![18_pycharm_plugin](./img/python_pycharm_install_mac/18_pycharm_plugin.png)
+
+아직까지 스크립트가 필요없으므로 그냥 Next 버튼 눌러줍니다.
+
+
+
+![19_pycharm_plugin](./img/python_pycharm_install_mac/19_pycharm_plugin.png)
+
+다음 화면으로 넘어가면 기본적인 플러그인을 설치할 수 있도록 하는 부분이 나옵니다. 이 부분은 그냥 지나쳐도 되나, Markdown(마크다운)은 많이 쓰기 때문에 하나 설치해주고 다음으로 가는 것을 추천합니다. 하지만 위 플러그인은 나중에 설정화면에서 언제든지 설치했다가 지웠다가 할 수 있는 부분이기 때문에 크게 신경쓰지 않으셔도 되겠습니다.
+
+
+
+#### Project 시작!
+
+위의 설정을 마무리하면 파이참이 실행되고 Project를 생성할 수 있습니다.![20_project_start](./img/python_pycharm_install_mac/20_project_start.png)
+
+`Create New Project` 클릭!
+
+
+
+![21_project_path](./img/python_pycharm_install_mac/21_project_path.png)
+
+프로젝트 폴더명을 지정해 줍니다. 프로젝트 이름이 곧 프로젝트 폴더명이 될 것이기때문에 영문과 숫자 혹은 only 영문 형식으로 지어주시면 되겠습니다.(한글.. 가능하나 매우매우 추천하지 않습니다.)
+
+그리고 이 화면에서 Project Interpreter 메뉴를 클릭해보면 다음과 같은 화면이 나옵니다.
+
+
+
+![22_pycharm_interpreter](./img/python_pycharm_install_mac/22_pycharm_interpreter.png)
+
+ <u>앞서 설치한 파이썬3와 이번에 설치한 파이참을 서로 연결</u>시켜주는 부분인데요. 위와 같이 앞서 설치한 파이썬3의 경로가 정확하게 나온다면 파이썬 설치도 제대로 된 것이고, 파이썬과 파이참이 순조롭게 연결이 된 것입니다. 아마 본 과정을 정확하게 따르셨다면 파이참이 알아서 파이썬의 경로를 인식했을 겁니다. 자동인식이기 때문에 파이썬이 3버전인지만 확인해주고 `Create` 진행하면 되겠습니다.
+
+
+
+![23_pycharm_complete](./img/python_pycharm_install_mac/23_pycharm_complete.png)
+
+파이참 프로젝트 화면으로 멋지게 진입하였습니다! 오자마자 파이참 사용에 대한 Tip이 나오는데요. 이게 매일마다 바뀌니 초보분들은 Tip을 하나씩 보면서 파이참의 숨은 기능들을 익히는 것도 나쁘지 않을 겁니다.
 
 
 
 
 
+#### pycharm terminal 사용법
+
+파이썬 프로젝트 내에서 터미널을 사용하는 방법이 있습니다. 앞서 spotlight으로 터미널을 실행하고 또 터미널로 여러가지 설치도 해봤는데요. 그 터미널을 있는 그대로 파이참 내에서 사용하는 방법도 있습니다.
+
+
+
+![24_pycharm_terminal](./img/python_pycharm_install_mac/24_pycharm_terminal.png)
+
+파이참 좌측 맨 하단에 네모 버튼을 눌러보시면 하단 창 화면을 무엇으로 할지 선택하는 드롭업? 버튼이 나오는데요. 거기서 terminal을 눌러줍니다.
+
+
+
+![25_pycharm_terminal_02](./img/python_pycharm_install_mac/25_pycharm_terminal_02.png)
+
+그러면 이렇게 화면 하단이 terminal로 바뀌게 되고, 심지어는 실행경로가 딱 우리가 지정했던 프로젝트 경로와도 일치시켜 줍니다. 파이참을 사용하신다면 앞으로는 따로 터미널창을 키지말고 파이참 내에서 사용하는 것이 더 편리하겠지요!
+
+
+
+## 코드를 쳐보고, 실행을 해보자
+
+여기까지 오시느라 수고 많으셨습니다. 이제 본격적으로 코딩할 준비가 끝났습니다. 그럼 이 기세를 몰아 실제로 코드를 쳐보고 실행까지 후딱 해치워보도록 하겠습니다.
+
+![26_make_python_file](./img/python_pycharm_install_mac/26_make_python_file.png)
+
+프로젝트 폴더에서 마우스 오른쪽버튼을 누르고 파이썬 파일 하나를 생성해 줍니다.
+
+
+
+![27_test_file](./img/python_pycharm_install_mac/27_test_file.png)
+
+파이썬 파일명을 지정해주시고, 마지막은 항상 .py 확장자명을 가지도록 해줍니다. (저는 test.py로 이름 지었습니다.)
+
+
+
+![28_file_complete](./img/python_pycharm_install_mac/28_file_complete.png)
+
+위와 같이 파이썬 파일이 하나 만들어진 모습과 그 파일을 편집할 수 있는 화면이 나옵니다.
+
+
+
+![29_print_hello](./img/python_pycharm_install_mac/29_print_hello.png)
+
+파이썬 파일 편집화면에 `print('Hello World!')`라는 파이썬 구문을 입력합니다.(참고로 위의 `print('Hello world')`라는 문법은 단순히 Hello world를 출력하라는 문법입니다.)
+
+
+
+그리고 화면 하단부에 가서 바로 해당 파이썬 파일을 실행해 봅니다. (파이참은 자동저장 기능이 있어서 따로 저장할 필요 없이 바로 터미널에서 실행하면 됩니다.)
+
+![30_python_excute](./img/python_pycharm_install_mac/30_python_excute.png)
+
+화면 하단 터미널에서 `python test.py` 입력 후 `enter`!!
+
+
+
+![31_python_excute_complete](./img/python_pycharm_install_mac/31_python_excute_complete.png)
+
+방금 우리가 작성했던 `print('Hello world')`라는 구문이 출력된 모습입니다.
+
+
+
+여기까지 Mac 환경에서 파이썬을 설치하고, 파이참을 설치하고 파이썬 파일을 실행하는 과정까지를 모두 진행하였습니다. 이제 파이썬과 관련된 환경이 정갈하게 정리되었으니, 이제부터는 파이썬 문법과 프로그래밍에 집중할 수 있을 것 같군요!
+
+
+
+혹시 안되는 부분이나 궁금하신 사항이 있으시다면 gaius827@gmail.com 으로 문의주세요! 시간날때마다 답변해 드리겠습니다. 감사합니다!
 
 
 
