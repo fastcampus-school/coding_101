@@ -1,8 +1,8 @@
-# Coding 101 - Python
+# Part1. Python 기
 
 ![](/assets/school_coding101_2.png)
 
-## 강의자료 다운받기
+## 실습 예
 
 [hello!!](resources/hello.py)
 
