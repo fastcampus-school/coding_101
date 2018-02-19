@@ -11,7 +11,7 @@
   * [조건문](part1/0107-conditionals.md)
   * [반복문](part1/0108-iterations.md)
   * [Python으로 웹 스크래핑하기](part1/0109-web-scraping-with-python.md)
-* [Part2. Python 활용](part2-python-d65c-c6a9.md)
+* [Part2. Python 활용](part2/part2-python-intro.md)
   * [\(Window\) Pycharm 설치](part1/0112-pycharm-install-window.md)
   * [\(Mac OS\) Pycharm 설치](part1/0113-pycharm-install-mac.md)
 
