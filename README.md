@@ -18,7 +18,11 @@
 
 #### **\*아래의 파트를 클릭하시고, 지금부터 학습을 시작하세요!\***
 
-#### [Part1 - Python](part1/README.md)
+#### [Part1 - Python 기초](/part1/README.md)
+
+#### [Part2 - Python 활용](/part2/part2-python-intro.md)
+
+#### 
 
 
 
