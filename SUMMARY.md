@@ -12,6 +12,6 @@
   * [반복문](part1/0108-iterations.md)
   * [Python으로 웹 스크래핑하기](part1/0109-web-scraping-with-python.md)
 * [Part2. Python 활용](part2-python-d65c-c6a9.md)
-  * \(Window\) Pycharm 설치
+  * [\(Window\) Pycharm 설치](part2-python-d65c-c6a9/window-pycharm-c124-ce58.md)
   * \(Mac OS\) Pycharm 설치
 
