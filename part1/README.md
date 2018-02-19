@@ -1,8 +1,8 @@
-# Part1. Python 기
+# Part1. Python 기초
 
 ![](/assets/school_coding101_2.png)
 
-## 실습 예
+## 실습 예제
 
 [hello!!](resources/hello.py)
 
