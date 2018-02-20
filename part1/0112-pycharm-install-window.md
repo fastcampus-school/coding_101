@@ -186,7 +186,7 @@ pycharm은 현재 몇가지 버전이 있고, 풀버전은 Professional 버전�
 
 ![13_project_create_bad_python_not_setuped](./img/pycharm_install_window/13_project_create_bad_python_not_setuped.jpg)
 
-Interpreter field is empty라는 에러메세지가 떳따면, 1)파이썬을 설치하신 후 파이참을 다시 실행하시거나, 2)python.exe 파일이 있는 경로를 따로 지정해주시면 되겠습니다. 우리의 경우에는 C:\Python36\python36 이겠죠!
+Interpreter field is empty라는 에러메세지가 떳따면, 1)파이썬을 설치하신 후 파이참을 다시 실행하시거나, 2)python.exe 파일이 있는 경로를 따로 지정해주시면 되겠습니다. 우리의 경우에는 C:\Python36\python.exe 이겠죠!
 
 
 
