@@ -14,4 +14,4 @@
 * [Part2. Python 활용](part2/part2-python-intro.md)
   * [\(Window\) Pycharm 설치](part1/0112-pycharm-install-window.md)
   * [\(Mac OS\) Pycharm 설치](part1/0113-pycharm-install-mac.md)
-
+  * [lotto 번호 크롤링 연습](part2/0201-crawling-basic.md)
