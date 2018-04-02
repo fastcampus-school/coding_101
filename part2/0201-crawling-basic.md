@@ -43,7 +43,7 @@ Server는 그 요청에 해당하는 답변으로 다음과 같은 문서를 내
 
 
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-01.png)
+![201-crawling-0](images/0201-crawling-01.png)
 
 우리가 흔히 쓰는 인터넷 웹브라우저의 역할이 이제 명확해졌죠. 서버에 html문서를 달라고 요청을 보내고, 받은 html문서를 사람이 볼 수 있는(?) 형태로 변환시켜줍니다.
 
@@ -112,7 +112,7 @@ pip install lxml
 
 사이트 URL: http://nlotto.co.kr/gameResult.do?method=byWin
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-02.png)
+![201-crawling-0](images/0201-crawling-02.png)
 
 
 
@@ -120,21 +120,21 @@ pip install lxml
 
 1단계로 크룸의 고유 기능인 개발자도구를 통해서 HTML 구조를 한번 파악해보도록 하겠습니다.
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-03.png)
+![201-crawling-0](images/0201-crawling-03.png)
 
 크롬 오른쪽 상단에 보시면, 위와 같은 메뉴가 있는데요. 거시서 '도구 더보기' > '개발자 도구'를 클릭하시면
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-04.png)
+![201-crawling-0](images/0201-crawling-04.png)
 
 이렇게 HTML code 가 나옵니다. 이 개발자 도구를 잘 활용하면 현재 우리가 보고 있는 웹페이지가 어떤 html 코드로서 표현된 것인지 한눈에 확인 할 수 있습니다.
 
 상단에 보면 다음과 같은 아이콘이 있는데요. 이 아이콘을 클릭하여 활성화 시킨후 웹페이지 상에 마우스를 올리면 그 마우스가 가리키고 있는지점의 html 코드를 보여줍니다.
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-05.png)
+![201-crawling-0](images/0201-crawling-05.png)
 
 저는 로또 번호를 표현한 곳이 궁금하기 때문에, 로또 번호가 있는 곳으로 마우스를 클릭해보겠습니다.
 
-![201-crawling-0](/Users/gaius/Dropbox/01.affair/02.coding101/coding_101/part2/images/0201-crawling-06.png)
+![201-crawling-0](images/0201-crawling-06.png)
 
 
 
